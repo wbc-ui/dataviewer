@@ -1,0 +1,59 @@
+{
+  "name": "@wbc-ui/dataviewer",
+  "version": "3.0.0-rc.2",
+  "description": "Vue 3 data table and tree viewer component for WBC-UI",
+  "license": "MIT",
+  "type": "module",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    },
+    "./style.css": "./dist/index.css"
+  },
+  "scripts": {
+    "build": "vite build",
+    "test": "vitest run"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {},
+  "peerDependencies": {
+    "vue": "^3.5.0",
+    "vuetify": "^3.4.0",
+    "@wbc-ui/core": "^3.0.0-rc.1",
+    "@wbc-ui/code": "^3.0.0-rc.1"
+  },
+  "peerDependenciesMeta": {
+    "@wbc-ui/code": {
+      "optional": true
+    },
+    "vuetify": {
+      "optional": true
+    }
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.0",
+    "@vue/test-utils": "^2.4.0",
+    "acorn": "^8.17.0",
+    "acorn-walk": "^8.3.5",
+    "vite": "^6.0.0",
+    "vitest": "^3.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wbc-ui/dataviewer.git"
+  },
+  "homepage": "https://github.com/wbc-ui/dataviewer#readme",
+  "bugs": {
+    "url": "https://github.com/wbc-ui/dataviewer/issues"
+  }
+}
