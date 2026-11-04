@@ -1,6 +1,6 @@
 {
   "name": "@wbc-ui/dataviewer",
-  "version": "3.0.0-rc.2",
+  "version": "3.0.0-rc.3",
   "description": "Vue 3 data table and tree viewer component for WBC-UI",
   "license": "MIT",
   "type": "module",
@@ -29,8 +29,8 @@
   "peerDependencies": {
     "vue": "^3.5.0",
     "vuetify": "^3.4.0",
-    "@wbc-ui/core": "^3.0.0-rc.1",
-    "@wbc-ui/code": "^3.0.0-rc.1"
+    "@wbc-ui/core": "^3.0.0-rc.3",
+    "@wbc-ui/code": "^3.0.0-rc.3"
   },
   "peerDependenciesMeta": {
     "@wbc-ui/code": {
